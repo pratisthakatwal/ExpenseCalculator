@@ -1,26 +1,26 @@
-# Core Flask Dependencies - Python 3.13 Compatible
+# PYTHON 3.13 COMPATIBLE - Pre-built wheels ONLY (no compilation needed)
 Flask==3.0.3
 Flask-CORS==4.0.0
 gunicorn==21.2.0
 
-# Data Science & ML Libraries (Python 3.13 compatible)
-pandas==2.2.0
-numpy==1.26.3
-scikit-learn==1.4.0
+# Use latest versions with confirmed Python 3.13 support
+pandas==2.2.3
+numpy==2.0.0
+scikit-learn==1.5.0
 
-# Firebase
-firebase-admin==6.2.0
-google-cloud-firestore==2.13.1
+# Firebase - stable versions
+firebase-admin==6.5.0
+google-cloud-firestore==2.16.0
 
-# Core Dependencies
-requests==2.31.0
-urllib3==2.0.7
-certifi==2023.11.17
+# Core dependencies
+requests==2.32.3
+urllib3==2.2.2
+certifi==2024.7.4
 
-# Build Tools
-setuptools==69.0.3
-wheel==0.42.0
+# Build essentials
+setuptools==70.0.0
+wheel==0.43.0
 
 # Optional
-python-dotenv==1.0.0
-Werkzeug==3.0.1
+python-dotenv==1.0.1
+Werkzeug==3.0.3
