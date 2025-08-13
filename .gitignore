@@ -1,0 +1,17 @@
+# Firebase credentials - NEVER commit these!
+firebase_config.json
+config/
+*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
